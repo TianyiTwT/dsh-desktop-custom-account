@@ -1,0 +1,15 @@
+# This repository ships only the plugin itself. Local development helpers and
+# verification artifacts stay on the working copy.
+
+# Reference dumps extracted from the DSH installation
+.reference/
+
+# Verification artifacts (screenshots, probe reports, smoke tests)
+.verify/
+
+# Local helper scripts (asar reader, window capture, window input)
+tools/
+
+# Package managers and logs
+node_modules/
+*.log
